@@ -40,20 +40,29 @@ h3 {
     font-family: 'Bungee', sans-serif;
 }
 
-p {
+p, li, tr, td{
     font-size: 1rem;
-    margin: 5px 10px;
+    margin: 10px 10px;
     padding: 0.5rem;
     background-color: white;
     border-radius: 5px;
 }
 
-.box {
-    display: flexbox;
-    border-color: red;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    gap : 2px
+    
+}
+ .item{
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    padding: 1rem;
-    margin: 5px;
-}
+    border-color: red;
+    background-color: coral;
+
+    flex-grow: 1;
+
+ }
