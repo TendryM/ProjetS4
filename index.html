@@ -1,126 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
-    <title>Page Title</title>
-</head>
-
-<body>
-    <h1>PAGE PRÉSENTATION PROJET S4 POLYTECH</h1>
-    <div class="container">
-    <div class="item">
-    <h2>1 - Présentation du projet</h2>
-
-    <p>L’équipe a choisi de développer une <strong> application web de jeux cognitifs </strong> de croiser 
-        plusieurs centres d’intérêt : la programmation, le jeu vidéo et les neurosciences. Le produit vise à 
-        proposer des jeux courts, accessibles et progressifs permettant à l’utilisateur de stimuler certaines 
-        fonctions cognitives, comme la mémoire, l’attention et la rapidité de traitement.</p>
-
-    <p>L'application s'adresse à toute personne souhaitant <strong>"entraîner son cerveau", se divertir ou
-        suivre sa progression</strong> grâce aux jeux "infinis"</p>
-    </div>
-
-    <div class="item">
-    <h2>2 - Objectifs du projet</h2><br>
-
-    <h3>2.1 - Objectif principal</h3>
-    
-    <p>Concevoir une plateforme web modulaire capable d'héberger plusieurs mini-jeux cognitifs, avec une 
-        première version fonctionnelle intégrant au minimum un jeu de type <em>Memory</em>.</p>
-
-    <h3>2.2 - Objectifs secondaires</h3>
-
-    <ul>
-        <li>Proposer une interface claire avec une page de présentation et une page catalogue;</li>
-        <li>Rendre possible l’ajout futur de nouveaux jeux sans refonte complète du site;</li>
-        <li>Prévoir une progression de difficulté afin de maintenir l’intérêt de l’utilisateur;</li>
-        <li>Produire une base de code propre et ompréhensible.</li>
-    </ul>
-    </div>
-
-    <div class="item">
-    <h2>3 - Public visé</h2>
-
-    <p>Le public comprend :</p>
-
-    <ul>
-        <li>Les adolescents et adultes recherchant un divertissement intelligent;</li>
-        <li>Les personnes souhaitant exercer leur mémoire ou leur concentration;</li>
-        <li>Les personnes curieuses de suivre leurs performances sur des jeux courts.</li>
-    </ul>
-    </div>
-
-    <div class="item">
-    <h2>4 - Périmètre fonctionnel</h2>
-    <p>La première version du projet couvre les fonctions suivantes :</p>
-
-    <h3>4.1 - Fonctionalités incluses</h3>
-    <ul>
-        <li><strong>Page d'accueil</strong> : Présentation du projet, de ses objectifs et accès à la plateforme.</li>
-        <li><strong>Catalogue de jeu</strong> : Affichage des jeux disponibles avec une courte description et un bouton
-            de lancement.</li>
-        <li><strong>Jeu Memory</strong> : Première implémentation complète d’un mini-jeu cognitif.</li>
-        <li><strong>Gestion de la difficulté</strong> : adaptation du niveau, par exemple via le nombre de cartes ou la
-            complexité.</li>
-        <li><strong>Architecture modulaire</strong> :  organisation du projet de sorte qu’un nouveau jeu puisse être ajouté
-            facilement.</li>
-        <li><strong> Identité visuelle cohérente</strong> : Respect d’une charte graphique simple, homogène et lisible..</li>
-    </ul>
-
-    <h3>4.2 Fonctionnalités hors périmètre immédiat</h3>
-    <p></p>Ces éléments sont identifiés comme des pistes d’évolution, mais ne constituent pas des exigences
-        de la première version :
-    </p>
-    <ul>
-        <li>Système complet d’inscription et de connexion;</li>
-        <li>Base de données distante;</li>
-        <li>Tableau de bord avancé de progression;</li>
-        <li>Multilingue complet;</li>
-        <li>Grand nombre de jeux dès la première livraison.</li>
-    </ul>
-    </div>
-
-    <div class="item"> 
-    <h2>5 - Exigences fonctionnelles</h2>
-    <table>
-        <tr>
-            <th>Ref.</th>
-            <th>Exigence</th>
-        </tr>
-        <tr>
-            <td>EF-01</td>
-            <td>L’application doit proposer une page d’accueil présentant le projet et permettant d’accéder au catalogue.</td>
-        </tr>
-        <tr>
-            <td>EF-02</td>
-            <td>L’application doit afficher un catalogue des jeux disponibles.</td>
-        </tr>
-        <tr>
-            <td>EF-03</td>
-            <td>L’utilisateur doit pouvoir lancer un jeu depuis le catalogue.</td>
-        </tr>
-        <tr>
-            <td>EF-04</td>
-            <td>Le Memory doit être jouable de bout en bout sans erreur bloquante.</td>
-        </tr>
-        <tr>
-            <td>EF-05</td>
-            <td>La difficulté du jeu doit pouvoir évoluer selon le niveau ou la progression de l’utilisateur.</td>
-        </tr>
-        <tr>
-            <td>EF-06</td>
-            <td>L’architecture doit permettre l’ajout d’un nouveau jeu avec un impact limité sur le reste du projet.</td>
-        </tr>
-        <tr>
-            <td>EF-07</td>
-            <td>L’interface doit rester lisible sur ordinateur et sur mobile.</td>
-        </tr>
-
-    </table>
-    </div>
-    </div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projets4</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
