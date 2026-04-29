@@ -16,7 +16,7 @@ function App() {
 
   return <>
     <Title color="white" backgroundColor="red" />
-    <Title2 color="white" backgroundColor="grey">Mon composant Titre 2</Title2>
+    <Title2 color="white" backgroundColor="grey" id="monid" className="maclasse">Mon composant Titre 2</Title2>
     <Title2 color="white" backgroundColor="green" hidden>Mon composant Titre 2 Caché</Title2>
     <input type="text" />
     <input type="checkbox" />
@@ -39,7 +39,7 @@ function Title (props) {
       </h1>
 }
 
-function Title2 ({color, backgroundColor, children, hidden}) {
+function Title2 ({color, backgroundColor, children, hidden, ...props}) {
 
   if (hidden) { {/* Détecte la présence/absence de la prop */}
     return null
@@ -56,7 +56,7 @@ function Title2 ({color, backgroundColor, children, hidden}) {
       borderRadius: "10px", 
       padding: "10px",
       fontFamily: "Arial, monospace",
-    }} {...prop}>
+    }} {...prop}> {/* Toutes les propriétés restantes (html ou autre) dedans et directement attribuées*/}
       {children} {/* Ce qui est mis entre les balises ouvrantes et fermantes*/}
       </h1>
 }
