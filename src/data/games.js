@@ -1,0 +1,22 @@
+export const listDeJeux = [
+  { id: 1, title: "Memory", icon: "🧩", description: "Retrouvez les paires de cartes identiques le plus rapidement possible pour stimuler votre mémoire visuelle et votre concentration.", difficulty: "Facile", path: "/memory" },
+  { id: 2, title: "Calcul Mental", icon: "🔢", description: "Résolvez un maximum d'opérations mathématiques (additions, multiplications) en un temps limité pour booster votre agilité numérique.", difficulty: "Moyen", path: "/catalogue" },
+  { id: 3, title: "Suite Logique", icon: "💡", description: "Découvrez la logique cachée derrière des suites de formes et de nombres pour affiner votre raisonnement abstrait.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 4, title: "Sudoku Lite", icon: "✏️", description: "Complétez des grilles de Sudoku simplifiées (6x6) pour entraîner votre esprit de déduction.", difficulty: "Moyen", path: "/catalogue" },
+  { id: 5, title: "Anagrammes", icon: "🔤", description: "Recomposez des mots cachés en déplaçant les lettres. Idéal pour la flexibilité cognitive.", difficulty: "Facile", path: "/catalogue" },
+  { id: 6, title: "Vitesse de Lecture", icon: "📖", description: "Un texte défile rapidement, répondez aux questions pour tester votre niveau de rétention d'information.", difficulty: "Facile", path: "/catalogue" },
+  { id: 7, title: "Simon Says", icon: "🎨", description: "Regardez la séquence de couleurs s'allumer et reproduisez-la sans faire d'erreur. Boostez votre mémoire immédiate.", difficulty: "Facile", path: "/catalogue" },
+  { id: 8, title: "Le juste compte", icon: "🎯", description: "Atteignez le nombre cible en combinant 4 nombres de départ avec les opérations de base.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 9, title: "Intrus Visuel", icon: "👁️", description: "Trouvez l'émoji ou la forme géométrique qui s'est glissée par erreur parmi des dizaines de clones.", difficulty: "Facile", path: "/catalogue" },
+  { id: 10, title: "Puzzle Glissant", icon: "🖼️", description: "Remettez les blocs d'une image en ordre en effectuant un nombre minimal de déplacements.", difficulty: "Moyen", path: "/catalogue" },
+  { id: 11, title: "Mots Croisés Flash", icon: "📝", description: "Remplissez une mini-grille de mots fléchés à l'aide de définitions courtes et percutantes.", difficulty: "Moyen", path: "/catalogue" },
+  { id: 12, title: "Labyrinthe Mental", icon: "🌀", description: "Guidez une bille vers la sortie en faisant pivoter les murs du labyrinthe. Travaille la vision spatiale.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 13, title: "Chasse aux Symboles", icon: "🔍", description: "Identifiez le plus rapidement possible si le symbole cible est présent dans le groupe affiché.", difficulty: "Facile", path: "/catalogue" },
+  { id: 14, title: "Tri Rapide", icon: "📦", description: "Classez des objets selon leur catégorie (Vivant / Inanimé) le plus vite possible sans vous tromper.", difficulty: "Facile", path: "/catalogue" },
+  { id: 15, title: "Calcul d'Angles", icon: "📐", description: "Estimez la valeur d'un angle géométrique visuellement. Plus vous êtes proche, plus vous gagnez de points.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 16, title: "Mémoire de visages", icon: "👤", description: "Observez des portraits pendant 30 secondes, puis retrouvez leurs caractéristiques (couleur des yeux, chapeau...).", difficulty: "Moyen", path: "/catalogue" },
+  { id: 17, title: "Réseau de Trains", icon: "🚂", description: "Activez les bons aiguillages en temps réel pour amener les trains à leur gare de couleur correspondante.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 18, title: "Double Tâche", icon: "🤹", description: "Gérez deux actions simultanées : un calcul à gauche et un évitement d'obstacle à droite. Idéal pour l'attention divisée.", difficulty: "Difficile", path: "/catalogue" },
+  { id: 19, title: "Couleurs Confuses", icon: "🌈", description: "Le mot 'BLEU' est écrit en rouge. Cliquez sur la couleur de l'encre, pas sur le mot ! (Effet Stroop).", difficulty: "Moyen", path: "/catalogue" },
+  { id: 20, title: "Pyramide de Nombres", icon: "🔺", description: "Remplissez les briques vides sachant que chaque brique est la somme des deux briques situées en dessous.", difficulty: "Moyen", path: "/catalogue" }
+];

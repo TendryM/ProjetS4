@@ -1,0 +1,70 @@
+/* --- RESET & BOX MODEL UNIVERSEL --- */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #3c3c3c;
+  overflow-x: hidden;
+}
+
+/* --- STICKY NAVBAR (Commune à toutes les pages) --- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 40px;
+  border-bottom: 2px solid #e5e5e5;
+  height: 70px;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #58cc02;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #777;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #58cc02;
+}
+
+/* --- BOUTON PHARE STYLE DUOLINGO --- */
+.btn-duolingo {
+  background-color: #58cc02;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #46a302;
+  padding: 14px 28px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn-duolingo:active {
+  transform: translateY(4px);
+  border-bottom-width: 0px;
+}
